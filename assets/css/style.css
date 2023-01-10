@@ -65,7 +65,7 @@ nav.navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #e3a924;
+  background: #f0b225;
   padding: 15px 0;
   z-index: 999;
 }
@@ -379,6 +379,62 @@ ul.navbar-nav {
 
 /* Status Section CSS End */
 
+/* Blog Section CSS Start */
+
+.blog-wrapper .section-title h2,
+.blog-wrapper .section-title p {
+  color: #313243 !important;
+}
+
+.blog-item {
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-item:hover {
+  box-shadow: 0px 25px 17px 4px #ececec;
+}
+
+.blog-item:hover .blog-content {
+  border: none;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-content {
+  padding: 30px;
+  border: 2px solid #d6d6d6;
+  border-top: none;
+}
+
+.blog-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #313243;
+}
+
+.blog-content h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00d6d6;
+}
+
+.blog-content p {
+  font-size: 16px;
+  color: #313243;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.blog-content a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00d6d6;
+}
+
+/* Blog Section CSS End */
+
 /* Main Part CSS End */
 
 /* Footer Part CSS Start */
@@ -399,6 +455,17 @@ ul.navbar-nav {
 
 .footer-nav li a {
   color: #eaeaea;
+}
+
+.footer-social a i {
+  background: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-right: 5px;
+  color: #343434;
 }
 
 /* Footer Part CSS End */
