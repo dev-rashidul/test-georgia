@@ -1,0 +1,86 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
+  .hero-content p {
+    padding-right: 0;
+  }
+
+  .animal-content h2,
+  .section-title h2 {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+  .hero-content p {
+    padding-right: 0;
+  }
+
+  .animal-content h2,
+  .section-title h2 {
+    font-size: 36px;
+  }
+  .animal-img::after {
+    left: -35px;
+    bottom: -35px;
+    width: 200px;
+    height: 200px;
+  }
+  .animal-img2::after {
+    right: -35px;
+    bottom: -35px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .logo img {
+    max-width: 80%;
+  }
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  .hero-content p {
+    font-size: 16px;
+    padding-right: 0;
+  }
+  .hero-img {
+    padding-top: 60px;
+  }
+
+  .animal-content h2,
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .animal-content2 {
+    margin-top: 80px;
+  }
+  .animal-img {
+    margin-top: 60px;
+    margin-left: 34px;
+  }
+  .animal-img2 {
+    margin-right: 34px;
+  }
+  .animal-img::after {
+    left: -35px;
+    bottom: -35px;
+    width: 200px;
+    height: 200px;
+  }
+  .animal-img2::after {
+    right: -35px;
+    bottom: -35px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .services-item h3 {
+    font-size: 25px;
+  }
+}
