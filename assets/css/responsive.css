@@ -83,4 +83,9 @@
   .services-item h3 {
     font-size: 25px;
   }
+
+  .footer-newsletter .nav-search input {
+    max-width: 80%;
+    width: 100%;
+  }
 }
